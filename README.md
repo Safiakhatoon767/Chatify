@@ -52,3 +52,9 @@ You will also see any lint errors in the console.
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### To build and run the Docker container for your Chatify application, you can use the following commands:
+docker build -t chatify-app .
+docker run -p 3000:3000 chatify-app
+
+
